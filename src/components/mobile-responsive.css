@@ -1,0 +1,52 @@
+/* mobile-responsive.css */
+
+@media (max-width: 640px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .bg {
+    height: 162% !important;
+    width: 104vw !important; /* Adjusted to exactly full viewport width */
+  }
+
+  .table-container {
+    width:98vw !important; /* Set to full viewport width */
+    overflow-x: scroll !important; /* Enable horizontal scrolling */
+    overflow-y: scroll !important; /* Enable horizontal scrolling */
+    padding: 10px auto; /* Remove padding */
+    border: none !important;
+  }
+
+  .container {
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    width: 100vw !important;
+  padding: 13px 1px !important;
+    margin: 60px 9px !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important; /* Adjusted font size */
+    margin: 1rem 0 !important; /* Adjusted margins */
+  }
+
+  .inputs {
+    margin: 0.5rem 0; /* Adjusted margin */
+    width: calc(100% - 1rem); /* Full width minus padding */
+  }
+
+  table {
+    width: 260% !important; /* Full width of the container */
+    display: block; /* Ensure the table can scroll horizontally */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+
+  video {
+    width: 24px;
+    height: 24px;
+  }
+
+}

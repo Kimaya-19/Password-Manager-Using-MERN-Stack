@@ -1,0 +1,63 @@
+/* mobile-responsive.css */
+
+@media (max-width: 640px) {
+  * {
+    overflow-x: hidden;
+  }
+
+ 
+  .move {
+    display: flex !important;
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    padding: 16px 59px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    width: 137px !important; /* Set an appropriate width for the icon */
+    height: 24px !important; /* Set an appropriate height for the icon */
+    margin: 0px 0px !important;
+  }
+  
+
+ 
+  h2 {
+    font-size: 1.5rem !important;
+    margin: 1rem 0 !important;
+  }
+
+  .site-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px; /* Optional border radius */
+    background-color: #f9f9f9; /* Optional background color */
+  }
+
+  .pass{
+display: flex;
+margin:0px 1px !important;
+width: 50vw !important;
+  }
+
+  th {
+    width: 35%; /* Equal width for each cell (assuming 4 columns) */
+    padding: 0.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0px -10px !important;
+  }
+
+  tr {
+    
+    display: flex; /* Make sure rows distribute cells evenly */
+    flex-wrap: nowrap; /* Prevent wrapping of cells within the row */
+  }
+
+
+  video {
+    width: 24px;
+    height: 24px;
+  }
+}

@@ -1,0 +1,23 @@
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    body{
+        overflow-y: scroll;
+        overflow-x:hidden !important;
+          }
+    .footer{
+        width: 100vw !important;
+        display: flex;
+        align-items: center;
+        margin: 6px;
+        position: relative;
+    }
+    p{
+        display: flex !important;
+        font-size: 15px !important;
+      
+        flex-direction: column !important;
+    }
+    .mail{
+        display: none !important;
+    }
+}

@@ -1,0 +1,101 @@
+@media (max-width: 640px) {
+  nav {
+    justify-content: space-between !important;
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 10px !important;
+    height: 64px !important;
+ 
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+  }
+
+  .logo span {
+    margin: 0 5px;
+    font-size: 24px;
+    background: linear-gradient(to right, #3b82f6, #93c5fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  nav {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 0 12px !important;
+    height: 1% !important;
+    width: 100% !important;
+  }
+
+  .logo {
+    width: auto !important; 
+    margin: 10px 49px !important;
+    font-size: 20px !important;
+    display: flex !important;
+    width: 70% !important;
+  }
+
+  .logo span {
+    font-size: 20px !important;
+    margin: 14px 3px !important;
+  }
+
+  .btn {
+    display: none !important;
+  }
+
+  .git {
+    display: flex !important;
+    position: relative !important;
+    top: -20px !important; /* Moves the icon up */
+    right: 5px !important; /* Adjusts the icon to the right */
+    margin: -20px 0px !important; /* Fine-tune the margin as needed */
+  }
+  
+ 
+  ul {
+    display: flex !important;
+    flex-direction:row !important;
+    width: 100% !important;
+    position: absolute;
+    padding: 45px !important;
+    margin: -20px 0px !important;
+    align-items: center !important;
+    justify-content: center;
+  }
+
+  ul li {
+    width: 100% !important;
+    margin: 10px 0 !important;
+    text-align: center !important;
+  }
+
+  ul li a {
+    display: block !important;
+    width: 100% !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  button {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  video {
+    width: 40px;
+    height: 40px;
+  }
+}
