@@ -18,6 +18,17 @@ Currently, two official plugins are available:
 3. **Install Dependencies**: Navigate to the project directory and run `npm install` to install necessary packages.
 4. **Start the Application**: Run `npm start` to launch the app locally.
 
+Here’s a brief guide on creating a database and documents in MongoDB Compass:
+
+Create Database and Documents in MongoDB Compass
+Open MongoDB Compass: Launch MongoDB Compass and connect to your MongoDB instance.
+
+Create a Database:
+
+Click on "Create Database".
+Enter a database name (e.g., PassManager) and a collection name (e.g., users).
+Click "Create Database".
+
 ## Documentation
 
 For further instructions and configuration details, please refer to the `README.md` file in the extracted directory.
